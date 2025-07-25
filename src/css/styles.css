@@ -148,6 +148,15 @@ main {
   color: #fff
 }
 
+.container .events .event-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.container .events .event-list li:last-child {
+  border-bottom: none;
+}
+
 .container .profile-data.hide{
   display: none;
 }
